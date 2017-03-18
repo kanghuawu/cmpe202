@@ -31,7 +31,8 @@ public class GumballWorld extends World
         addObject( new Penny(), 57, 71 ) ;
         addObject( new Quarter(), 68, 156 ) ;
         addObject( new FakeQuarter(), 66, 248 ) ;
-
+        addObject( new Message(), 370, 250);
+        
         Inspector inspector = new Inspector();
         addObject(inspector, 533, 291);
         RandomPicker randompicker = new RandomPicker();
@@ -41,4 +42,5 @@ public class GumballWorld extends World
         addObject(greenpicker, 686, 454);
         greenpicker.setLocation(669, 456);
     }
+    
 }

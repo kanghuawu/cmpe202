@@ -15,5 +15,15 @@ public class RandomPicker extends Picker
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    public Gumball pickGumball(){
+        Gumball gb = new Gumball();
+        int randomNum = Greenfoot.getRandomNumber(3);
+        switch(randomNum){
+            case 0: gb = new RedGumball(); break;
+            case 1: gb = new BlueGumball(); break;
+            case 2: gb = new GreenGumball(); break;
+        }
+        return gb;
+    }
 }

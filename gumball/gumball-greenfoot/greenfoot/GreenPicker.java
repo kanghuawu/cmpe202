@@ -15,5 +15,9 @@ public class GreenPicker extends Picker
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    public Gumball pickGumball(){
+        Gumball gb = new GreenGumball();
+        return gb;
+    }
 }

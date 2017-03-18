@@ -15,5 +15,12 @@ public class Picker extends Alien
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    public Gumball pickGumball(){
+        Gumball gb = new Gumball();
+        return gb;
+    }
+    public String toString(){
+        return "I am " + this.getClass().toString().substring(6);
+    }
 }
