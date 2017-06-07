@@ -7,7 +7,7 @@ public class Client {
 	public void runTest() {
 
 	    // error - can not instantiate directly
-        //theSingleton = new Singleton() ;
+        // theSingleton = new Singleton() ;
 
         // access the singleton instance
         theSingleton = Singleton.getInstance() ;

@@ -8,7 +8,7 @@ public aspect Prius {
     public void Main.processOrder() {
     	autoFactory.takeOrder( "Sample Order" ) ;
     	autoFactory.buildOrder() ;
-    }    
+    }
     
     // PointCut & Advice
     after(Main obj): target(obj) && call(void Main.print(..)) {
